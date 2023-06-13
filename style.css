@@ -1,0 +1,28 @@
+*::before{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    background-color: azure;
+}
+
+.header .container{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+
+.header .container .logo p{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 1px 1px 1px 1px white;
+}
