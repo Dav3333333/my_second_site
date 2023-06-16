@@ -8,21 +8,70 @@ body{
     padding: 0px;
     height: 100%;
     width: 100%;
+    
 }
 
-.header{
-    background-color: azure;
+
+
+img{
+    width: 20px;
+    height: 20px;
 }
 
-.header .container{
+/* this code is for my header*/
+
+.header header{
+    background-color: rgb(210, 224, 224);
+    padding: 20px;
+    border-bottom: 1pxs thick black ;
+}
+
+
+.header header .container{
     display: flex;
-    padding: 10px;
     justify-content: space-between;
-
+}
+.header header .container .menu .container span{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
 }
 
-.header .container .logo p{
+/* this is code of the logo */
+.header header .container .logo span{
     font-size: large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    box-shadow: 1px 1px 1px 1px white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: crimson;
+    box-shadow: darkgray;
+}
+
+/* this code is for the list menu*/
+.menu .container ul{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.menu .container ul li{
+    list-style: none;
+}
+
+
+
+/****************this is code for global sections***********/
+
+.container-sects{
+    display: flex;
+    width: 80%;
+    height: auto;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+/************* this code is for my first section sect1***********/
+
+
+/************ this code is for my second section sect2**********/
+.sect2{
+    background-image: url();
 }
